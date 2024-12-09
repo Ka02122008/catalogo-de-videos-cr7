@@ -61,13 +61,9 @@ iframe {
     display: block;
 }
 
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Ajustes para telas menores */
+@media screen and (max-width: 768px) {
+    iframe {
+        height: 300px; /* Aumenta a altura dos vídeos em telas menores */
+    }
 }
